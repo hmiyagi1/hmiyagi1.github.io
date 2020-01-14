@@ -1,0 +1,48 @@
+/*style sheet*/
+body {
+    font-family: "arial", "sans-serif";
+    max-width: 1000px;
+    margin: auto;
+}
+header {
+    background-color: #00FF7F;
+    color: white; 
+    padding-top: 10px; 
+    padding-bottom:10px;
+}
+hr{
+  border-top: 2px solid green;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    float: right; 
+    margin-right: 4em;
+    margin-top: 3em;
+    margin-left: 3em;
+    border-radius: 90%;
+	border:2px green;
+}
+
+h1{
+	text-align:center;
+	font-size:38px;
+}
+h2{
+	padding-left:20px;
+}
+ul{
+	list-style-type:none;
+	padding-left:100px;
+}
+#lastModified {
+
+    font-size: 1em;
+}
+footer {
+    background-color: #00FF7F; 
+    color: white; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
