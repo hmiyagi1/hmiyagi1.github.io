@@ -1,0 +1,19 @@
+@media only screen and (min-width: 22.5em){
+    h1{
+        font-family:'Gelasio', 'arial', 'sans-serif';
+        text-align:center;
+        font-size:28px;
+    }
+    h2{
+        padding-left:10px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-right: 4em;
+        margin-top: 3em;
+        margin-left: 3em;
+        border:2px green;
+    }
+
+}
