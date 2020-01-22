@@ -38,9 +38,6 @@ main section img {
 	main{
 	grid-template-columns: 1fr 1fr 1fr;
 		}
-	main section {
-	width: 100%;
-	}
 }
 
 /*Medium Size*/
@@ -49,9 +46,6 @@ main section img {
 	main{
 	grid-template-columns: 1fr 1fr;
 	   }
-   	main section {
-        width: 100%;
-	 }
 	.third{
 	grid-column:span 2;	
 	}
@@ -62,9 +56,6 @@ main section img {
 	main{
 	grid-template-columns: 1fr;	
 		}
-	main section {
-	width:100%;
-	}
 	.third{
 	grid-column:span 3;
 	}
