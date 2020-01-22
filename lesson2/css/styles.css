@@ -45,7 +45,7 @@ main section img {
 
 /*Medium Size*/
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
 	main{
 	grid-template-columns: 1fr 1fr;
 	   }
