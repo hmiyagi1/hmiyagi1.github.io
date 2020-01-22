@@ -49,7 +49,7 @@ main section img {
 	grid-template-columns:1fr 1fr;
 	   }
    	main section {
-        width: 50%;
+        width: 100;
  	 }
 }
 /*Small Size*/
