@@ -63,7 +63,7 @@ main section img {
 	grid-template-columns: 1fr;	
 		}
 	main section {
-	width:100%;
+	width:50%;
 	}
 	.third{
 	grid-column:span 3;
