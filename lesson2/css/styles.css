@@ -16,12 +16,10 @@ main  {
 	font-size: 16px;
 	margin:0px auto;
 	max-width:100%;
-	box-sizing: border-box;
 }
 	
 main section{
 	float:left;
-	width:33.3%;
 	background-color: #867979;
 	margin: 10px;
 	border: 1px;
@@ -34,20 +32,14 @@ main section img {
 		
 	}
 
-
-/*Extra Large*/
-
-@media only screen and (min-width: 1200px) {
-	main section {
-		width:50%;
-	}
-}
-
 /*Large Size*/
 
 @media only screen and (max-width: 992px){
 	main section {
-		width:70%;
+		main{
+		grid-template-columns:1fr 1fr 1fr;	
+		}
+	
 	}
 }
 
@@ -55,13 +47,19 @@ main section img {
 
 @media screen and (min-width: 760px) {
    main section {
-    width: 90%;
+    main{
+	grid-template-columns:1fr 1fr;
+	   }
+    width: 50%;
   }
-
+}
 /*Small Size*/
 
 @media screen and (max-width: 600px){
 	main section {
+		main{
+		grid-template-columns:1fr;	
+		}
 		
 		width:100%;
 	}
