@@ -51,7 +51,10 @@ main section img {
 	   }
    	main section {
         width: 100%;
- 	 }
+	 }
+	.third{
+	grid-column:span 2;	
+	}
 }
 /*Small Size*/
 
