@@ -46,9 +46,7 @@ main section img {
 	main{
 	grid-template-columns: 1fr 1fr;
 	   }
-	.third{
-	grid-column:span 2;	
-	}
+	
 }
 /*Small Size*/
 
@@ -57,7 +55,8 @@ main section img {
 	grid-template-columns: 1fr;	
 		}
 	.third{
-	grid-column:span 3;
+	grid-column:span 2;	
 	}
+
 }
 
