@@ -35,32 +35,34 @@ main section img {
 /*Large Size*/
 
 @media only screen and (max-width: 992px){
-	main section {
-		main{
+	main{
 		grid-template-columns:1fr 1fr 1fr;	
 		}
-	
+	main section {
 	}
 }
 
 /*Medium Size*/
 
 @media screen and (max-width: 760px) {
-   main section {
-    main{
+	main{
 	grid-template-columns:1fr 1fr;
 	   }
-    width: 50%;
-  }
+   	main section {
+        width: 50%;
+ 	 }
 }
 /*Small Size*/
 
 @media screen and (max-width: 600px){
-	main section {
-		main{
+	main{
 		grid-template-columns:1fr;	
 		}
-		
+	main section {
 		width:100%;
 	}
+	.third{
+	grid-column:span 2;
+	}
 }
+
