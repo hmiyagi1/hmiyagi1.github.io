@@ -21,6 +21,7 @@ header{
 }
 
 nav{
+    text-decoration: none;
     background-color:#356333;
     padding:10px;
 }
