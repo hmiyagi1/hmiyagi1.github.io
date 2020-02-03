@@ -1,0 +1,23 @@
+@media  only screen and (min-width:37.5em){
+    nav ul li{
+        display: flex;
+        flex-direction:row;
+        text-align:center;
+    }
+
+    nav ul.responsive{
+
+        display:flex;
+    }
+
+    nav button{
+        display:none;
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+    }
+    .contentbox{
+        background-color:#bed;
+    }
+}

@@ -1,0 +1,55 @@
+body{
+    font-size: 16px;
+    font-family: 'Acme', sans-serif;
+    color:#546e5e;
+    max-width: 1400px;
+    text-align: center;
+}
+
+header{
+    display:flex;
+}
+
+.header{
+    flex:1;
+}
+
+.navigation{
+    list-style-type:none;
+    flex-direction:row;
+    margin:0 auto;
+}
+
+nav{
+    background-color:#546e5e;
+    padding:10px;
+}
+
+nav ul.responsive{
+    display:none;
+}
+
+nav ul li a{
+    color:white;
+    display:block;
+
+}
+
+ul li{
+    list-style-type:none;
+    text-decoration:none;
+    margin:0;
+    padding:30px;
+    font-size: 24px;
+}
+
+li a:active{
+    color:white;
+}
+
+li a:hover{
+    padding:1px;
+    margin:1px;
+    background-color:white;
+    color:blue;
+}
