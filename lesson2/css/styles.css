@@ -9,17 +9,20 @@ header{
 h2 {
 	color: #ffb3b3;
 }
-
+* {
+  box-sizing: border-box;
+}
 main  {
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	font-size: 16px;
 	margin:0px auto;
 	max-width:100%;
 }
 	
 main section{
-	float:left;
+	float:center;
+	width:%;
 	background-color: #867979;
 	margin: 10px;
 	border: 1px;
@@ -27,12 +30,7 @@ main section{
 
 }
 main section img {
-		width: 50%;
+		width: 100%;
 		height: auto;
 		
 	}
-
-footer{
-	text-align:center;
-	background-color:#867979;
-}
