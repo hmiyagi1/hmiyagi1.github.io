@@ -1,5 +1,11 @@
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+/*Small Size*/
+
+@media screen and (max-width: 600px){
+	main{
+	grid-template-columns: 1fr;	
+		}
+	.third{
+	grid-columns:span 2;	
+	}
+
 }
