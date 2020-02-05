@@ -52,22 +52,8 @@ main section img {
 	}
 	
 }
-/*Small Size*/
 
-@media screen and (max-width: 600px){
-	main{
-	grid-template-columns: 1fr;	
-		}
-	.third{
-	grid-columns:span 2;	
-	}
-
-}
 footer{
 	text-align:center;
 	background-color:#867979;
 }
-
-	
-	
-
