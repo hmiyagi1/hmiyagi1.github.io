@@ -1,5 +1,4 @@
 body {
-	
 	font-family: 'Roboto', Arial, sans-serif;
 }
 header{
@@ -9,28 +8,21 @@ header{
 h2 {
 	color: #ffb3b3;
 }
-* {
-  box-sizing: border-box;
-}
+
 main  {
 	display:grid;
-	grid-template-columns: 1fr;
 	font-size: 16px;
-	margin:0px auto;
+	margin:0 auto;
 	max-width:100%;
 }
 	
 main section{
-	float:center;
-	width:%;
 	background-color: #867979;
-	margin: 10px;
-	border: 1px;
-	padding: 10px;
-
+	float:left;
+	margin: 5%;
+	padding:5%;
 }
 main section img {
-		width: 100%;
 		height: auto;
-		
+		width: 100%;
 	}
