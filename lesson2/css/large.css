@@ -1,7 +1,7 @@
 /*Large Size*/
 
-@media screen and (max-width: 992px){
-	main{
-	grid-template-columns: 1fr 1fr 1fr;
-		}
+@media only screen and (min-width: 992px){
+	main {
+		grid-template-columns:1fr 1fr 1fr;
+	}
 }
