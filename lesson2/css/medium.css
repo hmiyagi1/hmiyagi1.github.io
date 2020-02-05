@@ -1,0 +1,7 @@
+/*Medium Size*/
+
+@media screen and (min-width: 760px) {
+   main section {
+    width: 90%;
+  }
+
