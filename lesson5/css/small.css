@@ -17,6 +17,10 @@ header{
     flex:1;
 }
 
+.hide{
+	display:none;	
+}
+
 .logo{
 	position:absolute;
 	float:left;
