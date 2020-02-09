@@ -7,6 +7,23 @@ body{
 	margin:0 auto;
 }
 
+.bannerTop{
+	background-color:#5567aa;
+}
+
+#banner{
+	font-size: 24px;
+    font-family: 'Acme', sans-serif;
+    color:black;
+}
+
+.hide h5{
+	display:none;
+}
+
+.show{
+	display:block;
+}
 
 header{
 	
@@ -15,14 +32,6 @@ header{
 
 .header{
     flex:1;
-}
-
-.hide{
-	display:none;	
-}
-
-.show {
-	display:block;	
 }
 
 .logo{
