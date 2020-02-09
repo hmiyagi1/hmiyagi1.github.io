@@ -17,8 +17,12 @@ header{
     flex:1;
 }
 
-.hide{
+.hide h5{
 	display:none;	
+}
+
+.show {
+	display:block;	
 }
 
 .logo{
