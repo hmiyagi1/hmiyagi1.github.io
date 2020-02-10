@@ -1,6 +1,6 @@
 /*style sheet*/
 body {
-    font-family: "arial", "sans-serif";
+    font-family: 'Acme', arial, sans-serif;
     max-width: 960px;
     margin: auto;
 }
