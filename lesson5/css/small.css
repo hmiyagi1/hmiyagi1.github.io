@@ -12,7 +12,7 @@ body{
 }
 
 #banner{
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Acme', sans-serif;
     color:black;
 }
@@ -61,7 +61,7 @@ nav ul li a{
     color:white;
     display:block;
     text-align:center;
-    font-size:1rem;
+    font-size:.7rem;
     padding:.5rem 0;
 
 }
