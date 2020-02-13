@@ -12,7 +12,7 @@ body{
 }
 
 #banner{
-    font-size: 24px;
+	font-size: 24px;
     font-family: 'Acme', sans-serif;
     color:black;
 }
@@ -57,19 +57,17 @@ nav ul.responsive{
 }
 
 nav ul li a{
+	font-size:16px;
     text-decoration:none;
     color:white;
+	padding:20%;
     display:block;
-    text-align:center;
-    font-size:.7rem;
-    padding:.5rem 0;
 
 }
 
 ul li{
     list-style-type:none;
     text-decoration:none;
-    margin:0;
 }
 
 li a:active{
@@ -77,10 +75,9 @@ li a:active{
 }
 
 li a:hover{
-    padding:10px;
-    margin:0 auto;
     background-color:white;
     color:#15381C;
+	font-weight:800;
 }
 
 main {max-width:1000px;margin:0 auto; background: radial-gradient(#ddd, #5567aa);}
