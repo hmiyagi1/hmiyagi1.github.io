@@ -77,8 +77,8 @@ li a:active{
 }
 
 li a:hover{
-    padding:1px;
-    margin:1px;
+    padding:100%;
+    margin:0 auto;
     background-color:white;
     color:#15381C;
 }
