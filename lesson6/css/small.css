@@ -89,6 +89,7 @@ h1, h2, p {margin: 0;}
 .headline{
 	font-size:20px;
 	color:white;
+	text-shadow:1px black;
 }
 
 .overlay {
