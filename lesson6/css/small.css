@@ -102,6 +102,7 @@ header{
 }
 .overlay p{
 	margin:0 auto;
+	padding:20px;
 	font-size:1em;
 	display:grid;
 	grid-columns:1fr;
