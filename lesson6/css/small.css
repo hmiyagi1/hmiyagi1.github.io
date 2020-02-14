@@ -104,8 +104,8 @@ header{
 	margin:0 auto;
 	font-size:1em;
 	display:grid;
-	grid-columns:1fr 1fr;
-	grid-template-rows:25px;
+	grid-columns:1fr;
+	grid-template-rows:20px;
 }
 
 .table{
