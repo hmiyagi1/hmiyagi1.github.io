@@ -44,7 +44,7 @@ header{
     list-style-type:none;
     flex-direction:row;
     margin:0 auto;
-    display:none;
+    display:flex;
 }
 
 nav{
