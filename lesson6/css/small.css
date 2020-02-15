@@ -18,7 +18,7 @@ body{
 }
 
 .hide h5{
-	display:block;
+	display:none;
 }
 
 .show{
@@ -41,7 +41,7 @@ header{
 }
 
 .navigation{
-     list-style-type:none;
+	list-style-type:none;
     flex-direction:row;
     margin:0 auto;
 }
@@ -57,11 +57,11 @@ nav ul.responsive{
 }
 
 nav ul li a{
-    font-size:16px;
+	font-size:16px;
     text-decoration:none;
     color:white;
-    padding:20%;
-  
+	padding:20%;
+    display:block;
 
 }
 
@@ -86,24 +86,13 @@ h1 h2 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 .herodiv {margin: 10px auto;position: relative;}
 h1, h2, p {margin: 0;}
 
-.franklinOriginal{
-	display:block;	
-}
-
-
-.headline{
-	font-size:20px;
-	color:white;
-	text-shadow:1px black;
-}
-
 .overlay {
 	position: absolute;
 	top: 15px;
 	left: 30px;
 	background: radial-gradient(#ddd, #4d9f0c);
 	border: 1px solid #001;
-	padding: 2rem;
+	padding: 1rem;
 	box-shadow: 0 0 25px #222;
 	opacity:1;
 }
@@ -113,11 +102,10 @@ header{
 }
 .overlay p{
 	margin:0 auto;
-	padding:20px;
 	font-size:1em;
 	display:grid;
 	grid-columns:1fr;
-	grid-template-rows:20px;
+	grid-template-rows:25px;
 }
 
 .table{
