@@ -57,12 +57,11 @@ nav ul.responsive{
 }
 
 nav ul li a{
-	font-size:16px;
+    font-size:16px;
     text-decoration:none;
     color:white;
-	padding:20%;
-    display:block;
-
+    padding:20%;
+    text-align:center;
 }
 
 ul li{
