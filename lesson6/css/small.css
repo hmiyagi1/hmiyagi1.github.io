@@ -40,21 +40,21 @@ header{
 	width:100px;
 }
 
-.navigation{
+nav ul.navigation{
+    display:block;
     list-style-type:none;
     flex-direction:row;
     margin:0 auto;
-    display:flex;
+}
+
+nav ul.responsive{
+    display:none;
 }
 
 nav{
     text-decoration: none;
     background-color:#356333;
     
-}
-
-nav ul.responsive{
-    display:none;
 }
 
 nav ul li a{
