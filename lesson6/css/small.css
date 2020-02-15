@@ -42,7 +42,6 @@ header{
 
 .navigation{
     list-style-type:none;
-    flex-direction:row;
     margin:0 auto;
 }
 
