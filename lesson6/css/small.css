@@ -26,7 +26,6 @@ body{
 }
 
 header{
-	
     display:flex;
 }
 
@@ -43,7 +42,6 @@ header{
 nav ul.navigation{
     display:block;
     list-style-type:none;
-    flex-direction:row;
     margin:0 auto;
 }
 
@@ -54,21 +52,23 @@ nav ul.responsive{
 nav{
     text-decoration: none;
     background-color:#356333;
-    
+    padding:20px;
 }
-
+nav.clearfix{
+	background-color:#356333;
+	padding-bottom:20px;
+}
 nav ul li a{
 	font-size:16px;
     text-decoration:none;
     color:white;
-    padding:20px;
-    display:block;
-
 }
 
 ul li{
     list-style-type:none;
     text-decoration:none;
+    padding:20px;
+    float:left;
 }
 
 li a:active{
@@ -174,15 +174,3 @@ header{
 	
 	width:100px;
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
