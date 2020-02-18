@@ -59,9 +59,10 @@ nav.clearfix{
 	padding-bottom:80px;
 }
 nav ul li a{
-	font-size:16px;
+    font-size:16px;
     text-decoration:none;
     color:white;
+    display:block;
 }
 
 ul li{
