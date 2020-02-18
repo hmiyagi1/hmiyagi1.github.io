@@ -80,6 +80,10 @@ li a:hover{
     color:#15381C;
 	font-weight:800;
 }
+nav ul li:hover{
+	background-color:white;
+    color:#15381C;
+}
 
 main {max-width:1000px;margin:0 auto; background: radial-gradient(#ddd, #5567aa);}
 h1 h2 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
