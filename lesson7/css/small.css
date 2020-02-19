@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, 'sans-serif';
+	text-align: center;
+	justify-content:center;
+	margin: auto;
+}
+
+picture {
+    
+    display: block;
+    margin: 1rem;
+}
+
+img {
+    background-color: pink;
+    border: 2px solid red;
+    max-width: 300px;
+    max-height: 400px;
+    filter: blur(0em);
+    transition: filter.5s;
+}
+
+img[data-src] {
+    filter: blur(0em);
+}
+
