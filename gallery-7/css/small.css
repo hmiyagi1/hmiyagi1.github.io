@@ -46,11 +46,14 @@ nav{
 }
 
 nav ul.navigation{
-   
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     display:flex;
 	list-style-type:none;
     margin:0 auto;
-	padding:0;
 }
 
 nav ul.responsive{
