@@ -216,9 +216,14 @@ img:hover{
 	max-height:200px;
 }
 
-img[data-src]{
+img{
 	filter:blur(0.5em);
 	transition:filter 2s;
+}
+
+img[data-src]{
+	filter:blur(0em);
+	
 }
 
 .gallery{
