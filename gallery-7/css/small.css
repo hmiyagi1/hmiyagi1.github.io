@@ -2,7 +2,7 @@ body{
     font-size: 16px;
     font-family: 'Acme', sans-serif;
     color:#356333;
-    max-width: 1000px;
+    width:auto;
     text-align: center;
 	margin:0 auto;
 }
@@ -30,7 +30,7 @@ header{
 }
 
 .header{
-    flex:1;
+    flex:1fr;
 }
 
 .logo{
@@ -39,39 +39,45 @@ header{
 	width:100px;
 }
 
-nav ul.navigation{
-    display:block;
-    list-style-type:none;
-    margin:0 auto;
-}
-
-nav ul.responsive{
-    display:none;
-}
-
 nav{
     text-decoration: none;
     background-color:#356333;
-    padding:40px;
+    padding:20px;
 }
+
+nav ul.navigation{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-between;
+	list-style-type:none;
+    margin:0 auto;
+	padding:0;
+}
+
+nav ul.responsive{
+    
+	display:none;
+}
+
+
 nav.clearfix{
+	width:100%;
 	background-color:#356333;
 	padding-bottom:80px;
 }
 nav ul li a{
     font-size:16px;
+	color:white;
     text-decoration:none;
-    color:white;
-    display:flex;
-    flex-direction:row;
+	display:block;
 	margin:0 auto;
+	padding:1rem;
 }
 
 ul li{
+	float:left;
     list-style-type:none;
     text-decoration:none;
-    padding:10px;
-    float:left;
 }
 
 li a:active{
@@ -80,12 +86,11 @@ li a:active{
 
 li a:hover{
     background-color:white;
-    color:#356333;;
-    font-weight:800;
+    color:#356333;
 }
 nav ul li:hover{
 	background-color:white;
-    color:#15381C;
+    color:#356333;
 }
 
 main {max-width:1000px;margin:0 auto; background: radial-gradient(#ddd, #5567aa);}
@@ -205,25 +210,32 @@ p{
   grid-column:auto/span 2;
 }
 
-img:hover{
-	background-color:gray;
-}
+
 
 
 .container img{
 	border:2px solid gray;
-	max-width:150px;
-	max-height:200px;
+	max-width:200px;
+	max-height:250px;
 }
 
-img{
-	filter:blur(0.5em);
-	transition:filter 2s;
+.container img:active{
+	border:2px solid gray;
+	max-width:200px;
+	max-height:250px;
 }
 
-img[data-src]{
+.container img:hover{
+	opacity:.5;
+	border:2px solid gray;
+	max-width:200px;
+	max-height:250px;
+}
+
+
+.container img[data-src]{
 	filter:blur(0em);
-	
+	transition:filter 2s;
 }
 
 .gallery{
