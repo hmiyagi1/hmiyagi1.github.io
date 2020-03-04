@@ -44,16 +44,16 @@
             <section class="stormSection">
                     <container class="upper">
                         <h3>Personal Information</h3>
-                        <label class="info">Full Name* <input type="text" name="name" pattern="[a-zA-Z0-9\s]{5,}" required></label>
-                        <label class="info">Email Address <input type="email" name="email" placeholder="johndoe@example.com"></label>
-                        <label class="info">Phone Number* <input type="tel" name="phone" required></label>
-                        <label class="info">Zip Code* <input type="number" name="zip" required ></label>
-						<p class="req">* are required fields.</p>
+                        <label class="info">Full Name* <br><input type="text" name="name" pattern="[a-zA-Z0-9\s]{5,}" required></label>
+                        <label class="info">Email Address <br><input type="email" name="email" placeholder="johndoe@example.com"></label>
+                        <label class="info">Phone Number* <br><input type="tel" name="phone" required></label>
+                        <label class="info">Zip Code* <br><input type="number" name="zip" required ></label>
+						<p class="req">* are required fields.<br></p>
                     </container>
                     <container class="lower">
-                        <h3>Storm Data</h3>
-                        <label class="data">Storm Date <input type="date" name="stormDate"></label>
-                        <label class="top">Storm Type 
+                        <h3>Storm Information</h3>
+                        <label class="data">Storm Date<input type="date" name="stormDate"></label><br> 
+                        <label class="top">Storm Type
                             <input list="stormTypeList" name="stormType" placeholder="Choose Storm Type">
                             <datalist id="stormTypeList">
                                 <option value="Flash Flood">Flash Flood</option>
@@ -73,7 +73,7 @@
                                 <option>Soda Springs</option>
                                 <option>Fish Haven</option>
                             </select>
-                        </label>
+                        <br></label>
                     </container>
                     <container class="lowest">
                         <h3>Other</h3>
