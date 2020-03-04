@@ -1,4 +1,4 @@
-@media  only screen and (min-width:45.5em){
+@media  only screen and (min-width:65.5em){
     nav ul li{
         text-decoration:none;
         display: flex;
@@ -45,21 +45,35 @@
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		padding-left:5rem;
-		text-align:center;
+		text-align:left;
 	}
 }
 
 .stormcenter{
-	text-align:center;
+	text-align:left;
+}
+
+.stormSection{
+    margin:40px;
+    padding:10px;
+    border:black;
+    text-align:left;
+
 }
 
 .info, .other{
 	color:black;
 	float:left;
+	margin:10px;
 	padding-right:100px;
 }
 
 .upper, .lower, .lowest{
 	color:black;
 	float:left;
+}
+
+.top{
+	margin:10px;
+	padding:10px;
 }
