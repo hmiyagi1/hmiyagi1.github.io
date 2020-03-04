@@ -276,16 +276,25 @@ form label.info{
 	
 }
 
-form label.top{
+form label.data{
+	
 	padding:1em;
 	text-align:left;
+	justify-content:center;
+}
+
+
+form label.top{
+	
+	padding:1em;
+	text-align:left;
+	justify-content:center;
 	
 }
 
 
 .contactinformation{
 	padding:30px;
-	
 }
 
 .stormcenter{
