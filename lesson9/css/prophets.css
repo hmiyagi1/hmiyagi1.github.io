@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', 'sans-serif';
+    color: black;
+}
+
+header{
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    text-align: center;
+}
+
+section {
+    background-color: #bbbbbb;
+    border: 1px solid black;
+    margin: 1rem;
+	padding: 1rem;
+}
+
+section img {
+    margin: 1rem;
+	padding: 1rem;
+    max-width: 80%;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 300px) {
+    main div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    main div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
