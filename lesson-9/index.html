@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Harunori Miyagi">
+        <meta name="description" content="Tenki Southeast Idaho">
+        <title>Tenki Southeast Idaho</title>
+        <script type="text/javascript" src="js/toggleMenu.js"></script>
+        <link rel="stylesheet" href="/lesson4/css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+		
+        <header>
+            <div class="header">
+            <h1>Tenki Southeast Idaho</h1>
+			<p class="statement">This site will provide up to date weather information for the tri-county area of southeast Idaho.
+			Please use this site at your leisure.</p>
+            <div class="subheading">Southeast Idaho Weather</div>
+            </div>
+            <img class="logo" src="images/idaho.png" alt="Southeast Idaho">
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;MENU</button>
+            <ul id="navigation" class="responsive">
+                <li><a href="preston-4.html">Home</a></li>
+                <li><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>  
 
+        <main>
+		 <div class="city"></div>
+       
+        
+        </main>
+        <footer>
+            <span>&copy; </span><span id="year"></span><span> | Harunori Miyagi | Utah | <a href="https://www.byui.edu/online" class="link">BYUI Online Learning</a><p id="lastModified"></p></span>
+            <p class="js"><span id="todaysDate"></span></p>
+            <script src="js/todaysDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+			<script src="js/lazy-load.js"></script>
+			<script src="js/home.js"></script>
+        </footer>
+       
+        
+    </body>
+</html>
