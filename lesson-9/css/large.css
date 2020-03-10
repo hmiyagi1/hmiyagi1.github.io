@@ -1,0 +1,55 @@
+
+@media only screen and (min-width: 70rem) {
+
+    nav button {
+        display: none;
+    }
+
+  nav ul.navigation{
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+	list-style-type:none;
+    margin:0 auto;
+}
+
+    nav ul {
+        margin-left: 2%;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        padding: 0;
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        float: left;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+ 
+ div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+        min-width: 64em;
+    }
+	
+	main{
+			padding-left:200px; 
+		
+	}
+	
+img.image{
+   
+    max-width: 300px;
+}
+
+}
