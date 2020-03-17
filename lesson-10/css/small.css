@@ -152,7 +152,7 @@ header{
 }
 
 .article{
-	display:none;
+	display:block;
 	font-family:calibri, arial,sans-serif;
 	color:black;
 	font-size:1.5rem;
