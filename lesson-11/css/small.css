@@ -262,7 +262,7 @@ img.tornado{
 div.grid-container{
 	display:grid;
 	grid-template-columns:1fr;
-	grid-template-rows:1fr;
+	grid-template-rows:auto;
 }
 
 div.contactbox{
@@ -288,12 +288,11 @@ div.contactinformation{
 	padding:10px;
 }
 
-a.socialmedia .icon{
-	display:flex;
-	justify-content:center;
-	padding-top:20px;
-	padding-left:120px;
-	width:50px;
-	height:50px;
+img.icon{
+
+	width:100px;
+	height:100px;
+}
+
 	
 }
