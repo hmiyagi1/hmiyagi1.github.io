@@ -1,0 +1,135 @@
+@media  only screen and (min-width:37.5em){
+	main{
+		padding-left:0;
+	}
+	
+    nav ul li{
+        text-decoration:none;
+        display: flex;
+        flex-direction:row;
+        text-align:center;
+    }
+
+    nav ul.responsive{
+        display:flex;
+    }
+
+    nav button{
+        display:none;
+    }
+	
+.show{
+	display:block;
+}
+
+    nav ul li{
+        flex: 1 1 100%;
+    }
+	
+   .contentbox{
+	font-family:calibri, arial,sans-serif;
+	color:black;
+	font-size:1.5rem;
+	margin:0 auto;
+	padding:10px;
+	background-color:#356333;
+}
+
+div.city {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:auto;
+        min-width:64em;
+		padding-left:35px;
+    }
+	
+
+div.city section:nth-child(2){
+	margin-left:-200px;
+}
+
+	
+img.image{
+	padding-top:35px;
+}
+	
+div.articlebox{
+	padding-left:35px;
+}
+
+p.articleright{
+	text-align:left;
+	margin-left:100px;
+	padding-left:300px;
+	display:block;
+	font-family:arial,sans-serif;
+	color:black;
+	font-size:1.2rem;
+	
+}
+
+section.article{
+	min-width:920px;
+	max-height:400px;
+	display:block;
+	font-family:calibri, arial,sans-serif;
+	color:black;
+	font-size:1.5rem;
+}
+
+img.tornado{
+	display:block;
+	float:left;
+	margin:0 auto;
+	padding:20px;
+	width:300px;
+}
+
+
+
+div.grid-container{
+	display:grid;
+	grid-template-columns:1fr;
+	grid-template-rows:auto;
+}
+
+section.contact{
+	min-width:920px;
+	max-height:1000px;
+	display:block;
+	font-family:calibri, arial,sans-serif;
+	color:black;
+	font-size:1.5rem;
+}
+
+img.map{
+	display:block;
+	margin-top:50px;
+	position:relative;
+	width:400px;
+	border:5px solid silver;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.contactbox{
+	padding-left:35px;
+	
+}
+
+
+div.contactinformation{
+	display:block;
+}
+
+a.socialmedia .icon{
+	display:block;
+	margin:0;
+	padding:0;
+	margin-left:200px;
+	width:50px;
+	height:50px;
+	
+	
+}
+}
