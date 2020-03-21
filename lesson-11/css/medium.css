@@ -104,7 +104,7 @@ section.contact{
 
 img.map{
 	display:block;
-	margin-top:50px;
+	margin-top:20px;
 	position:relative;
 	width:400px;
 	border:5px solid silver;
@@ -116,7 +116,6 @@ div.contactbox{
 	padding-left:35px;
 	
 }
-
 
 div.contactinformation{
 	display:block;
