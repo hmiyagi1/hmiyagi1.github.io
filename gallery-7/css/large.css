@@ -2,11 +2,60 @@
     nav button{
         display:none;
     }
-    ul li{
+	
+	
+header{
+		padding:10px;
+		max-width:1000px;
+		
+	}
+	
+nav{
+    text-decoration: none;
+    background-color:#356333;
+}
+
+nav ul.navigation{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+	list-style-type:none;
+}
+
+
+nav.clearfix{
+	background-color:#356333;
+	max-width:980px;
+}
+
+	
+	ul li{
+	background-color:#356333;
+	float:left;
+	text-align:center;
     list-style-type:none;
     text-decoration:none;
-    }
+}
+
+main {max-width:1020px;margin:0 auto; background: radial-gradient(#ddd, #5567aa);}
+	
+	
+	
     .contentbox{
         background-color:#356333;
     }
+	
+	footer{
+	background-color:#356333;
+	color:black;
+	margin-left:110px;
+	padding:40px;
+	text-align:center;
+	justify-content:center;
+	max-width:940px;
+}
+	
+	
+	
 }
