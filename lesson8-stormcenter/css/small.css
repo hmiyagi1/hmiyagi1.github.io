@@ -50,14 +50,11 @@ nav ul.navigation{
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     display:flex;
 	list-style-type:none;
-    margin:0 auto;
 }
 
 nav ul.responsive{
-	
 	display:none;
 	background-color:#356333;
 }
@@ -65,9 +62,7 @@ nav ul.responsive{
 
 nav.clearfix{
 	background-color:#356333;
-	margin:10px auto;
-	padding-bottom:70px;
-	width:auto;
+	
 }
 nav ul li a{
 	
@@ -76,8 +71,7 @@ nav ul li a{
 	color:white;
     text-decoration:none;
 	display:block;
-	margin:0 auto;
-	padding:.5rem;
+
 	
 }
 
@@ -261,8 +255,7 @@ p{
 
 footer{
 	background-color:pink;
-	margin:50px;
-	padding:40px;
+	
 	text-align:center;
 	justify-content:center;
 }
@@ -297,7 +290,7 @@ form label.top{
 	padding:30px;
 }
 
-.stormcenter{
+h2.stormcenter{
 	color:black;
 	text-align:center;
 	
@@ -325,8 +318,7 @@ form label.top{
 
 .textCenter{
 	font-size:14px;
-	border:1px solid black;
-	border-radius:5px;
+	
 }
 
 main{

@@ -10,10 +10,6 @@
 
         display:flex;
     }
-
-    nav button{
-        display:block;
-    }
 	
 	.article{
 		display:block;
