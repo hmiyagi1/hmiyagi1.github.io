@@ -46,6 +46,12 @@ header{
 	width:100px;
 }
 
+
+
+/*-------------------------------navigation bar--------------------------------------------*/
+
+
+
 .navigation{
 	list-style-type:none;
     flex-direction:row;
@@ -91,7 +97,11 @@ main {
 	margin:0 auto;
 	background: radial-gradient(#ddd, #5567aa);
 	}
-h1 h2 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+h1 h2 {
+	text-align: center;
+	font-size:2.5rem;
+	text-shadow:3px 3px 5px #777;
+	}
 
 .herodiv {margin: 10px auto;position: relative;}
 h1, h2, p {margin: 0;}
@@ -221,6 +231,10 @@ ul li {
     justify-content: center;
 }
 
+
+/*------------------------------- section with picture and article--------------------------------------------*/
+
+
 .contentbox{
 	font-family:calibri, arial,sans-serif;
 	color:black;
@@ -258,6 +272,9 @@ img.tornado{
 	padding:20px;
 	width:300px;
 }
+
+
+/*-------------------------------bottom section with map and contact--------------------------------------------*/
 
 div.grid-container{
 	display:grid;
