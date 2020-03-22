@@ -49,8 +49,9 @@ main {max-width:1020px;margin:0 auto; background: radial-gradient(#ddd, #5567aa)
 	footer{
 	background-color:#356333;
 	color:black;
-	margin-left:110px;
+	margin:0 auto;
 	padding:40px;
+	
 	text-align:center;
 	justify-content:center;
 	max-width:940px;
