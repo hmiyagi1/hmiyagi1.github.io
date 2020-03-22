@@ -25,7 +25,7 @@ nav ul.navigation{
 
 
 nav.clearfix{
-	margin-left:122px;
+	margin:0 auto;
 	background-color:#356333;
 	max-width:980px;
 }
@@ -50,7 +50,7 @@ main {max-width:1020px;margin:0 auto; background: radial-gradient(#ddd, #5567aa)
 	footer{
 	background-color:#356333;
 	color:black;
-	margin-left:122px;
+	margin:0 auto;
 	padding:40px;
 	text-align:center;
 	justify-content:center;
