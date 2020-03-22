@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Harunori Miyagi">
+        <meta name="description" content="Tenki Southeast Idaho">
+        <title>Tenki Southeast Idaho</title>
+        <script src="js/toggleMenu.js"></script>
+		
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    </head>
+    <body>
+		<div class="bannerTop">
+		
+		</div>
+        <header>
+		    <div class="header">
+            <h1>Tenki Southeast Idaho</h1>
+            <div class="subheading">Southeast Idaho Weather</div>
+            </div>
+            <img class="logo" src="images/idaho.png" alt="Southeast Idaho">
+        </header>
 
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;MENU</button>
+            <ul id="navigation" class="responsive">
+                <li><a href="preston-4.html">Home</a></li>
+                <li><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>  
+	<main>
+		<h1 class='title'>Soda Springs Idaho</h1>
+            <div class="herodiv">
+                <img src="images/sodaspring.jpg" alt="placeholder">
+                <div class="overlay">
+                    <div class="headline"><h3>Weather Summary</h3></div>
+					
+                    <span class="line1">Currently: </span><span class="line1-1" id="valCurrent"></span>
+                    <span class="line1">High: </span><div><span class="line1-1" id="valHigh"></span><span> &#8457;</span></div>
+					<span class="line1">Wind Chill: </span><div><span class="line1-1" id="valChill"></span><span> </span></div>
+					<span class="line1">Humidity: </span><div><span class="line1-1" id="valHumid"></span><span>%</span></div>
+                    <span class="line1">Wind Speed: </span><div><span class="line1-1" id="valWind"></span><span>  mph</span></div>
+                    
+                </div>
+            </div>
+            <section class="forecast">
+                <h3>5-Day Forecast</h3>
+                <div class="forecastTable">
+                    
+                </div>
+            </section>
+			
+			<section class="article">
+            <div class="contentbox">Article</div>
+				<h3>Spiritual Whirlwinds</h3>
+				<p>By Elder Neil Anderson</p>
+				<img class="tornado" src="images/tornado.jpg" alt="placeholder">
+                <p>Many years ago while we were visiting our family in Florida,
+				a tornado touched down not too far from us. 
+				One woman living in a mobile home went into her bathroom for safety. 
+				The mobile home began to shake. A few moments passed.
+				Then she heard her neighbor’s voice: “I am here in the front room.”
+				Coming out of the bathroom, to her great astonishment, 
+				she discovered that the tornado had lifted and carried her mobile home through the air,
+				landing it perfectly upright on the top of her neighbor’s mobile home.</p>
+            </section>
+			<section class="contact">
+			<div class="contentbox">Contact</div>
+                <div class="grid-container">
+                    <div class="image of map">
+                        <img class="map" src="images/map.png" alt="placeholder">
+                    </div>
+                    <div class="contactinformation">
+                        <h3>Tenki Southeast Idaho</h3>
+                        <p>Home of Preston</p>
+                        <p>Preston, ID 84664</p>
+                        <br>
+                        <p>&#9743; 123-456-78910</p>
+                        <p>&#9743; 123-456-78910</p>
+                        <p>
+                            <a href="#" class="socialmedia"><img class="icon" src="images/facebook.png" alt="placeholder"></a>
+                            <a href="#" class="socialmedia"><img class="icon" src="images/youtube.png" alt="placeholder"></a>
+                            <a href="#" class="socialmedia"><img class="icon" src="images/twitter.png" alt="placeholder"></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span>&copy; </span><span id="year"></span><span> | Harunori Miyagi | Utah | <a href="https://www.byui.edu/online" class="link">BYUI Online Learning</a></span>
+            <p class="js"><span id="todaysDate"></span></p>
+            <script src="js/todaysDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+			<script src="js/showBanner.js"></script>
+			<script src="js/windchill.js"></script>
+			<script src="js/5dayforecast.js"></script>
+        </footer>
+    </body>
+</html>
