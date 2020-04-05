@@ -1,0 +1,35 @@
+{
+  "riverguides": [
+    {
+      "name": "River Rat",
+      "lastname": "Roberts",
+      "birthdate": "23 December 2001",
+      "length": 14,
+      "order": 1,
+      "birthplace": "Riggins, Idaho",
+      "numofchildren": 110,
+      "imageurl": "https://ichef.bbci.co.uk/news/660/cpsprodpb/FCF2/production/_95145746_h_02726928-1.jpg"
+    },
+    {
+      "name": "Kayaking Kyle",
+      "lastname": "Karter",
+      "birthdate": "01 January 2000",
+      "length": 30,
+      "order": 2,
+      "birthplace": "Z-City",
+      "numofchildren": 56,
+      "imageurl": "https://img.cartoongoodies.com/wp-content/uploads/2020/02/One-Punch-Man-character-King-head.png"
+    },
+    {
+      "name": "Andy Adventure",
+      "lastname": "Arnold",
+      "birthdate": "01 May 1998",
+      "length": 6,
+      "order": 3,
+      "birthplace": "Pumpkin",
+      "numofchildren": 34,
+      "imageurl": "https://i.pinimg.com/originals/e6/20/f7/e620f7a3288f468dafe2ba997ccc10c3.png"
+    },
+
+  ]
+}
