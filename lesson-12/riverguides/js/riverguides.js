@@ -1,7 +1,7 @@
 
 
 
-const requestURL = 'riverguides.json';
+const requestURL = 'https://github.com/hmiyagi1/hmiyagi1.github.io/blob/master/lesson-12/riverguides/json/riverguides.json';
 
 fetch(requestURL)
   .then(function (response) {
