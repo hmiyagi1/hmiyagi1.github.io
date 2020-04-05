@@ -1,6 +1,4 @@
 
-
-
 const requestURL = 'https://hmiyagi1.github.io/lesson-12/riverguides/json/riverguides.json';
 
 fetch(requestURL)
@@ -20,14 +18,26 @@ fetch(requestURL)
 		
         let h2 = document.createElement('h2');
 		
-        let Bdate = document.createElement('p');
+        let certification = document.createElement('p');
+		
+		let yearsofexperience = document.createElement('p');
+		
+		let email = document.createElement('p');
+		
+		let biography = document.createElement('p');
         
         let image = document.createElement('img');
 
 
         h2.textContent = riverguides[i].name + ' ' + riverguides[i].lastname;
 		
-        Skilllevel.textContent = riverguides[i].skilllevel;
+        certification.textContent = riverguides[i].certification;
+		
+		yearsofexperience.textContent = riverguides[i].yearsofexperience;
+		
+		email.textContent = riverguides[i].email;
+		
+		biography.textContent = riverguides[i].biography;
         
         image.setAttribute('src', riverguides[i].imageurl);
 		
@@ -35,7 +45,13 @@ fetch(requestURL)
 
         card.appendChild(h2);
 		
-        card.appendChild(Skilllevel);
+        card.appendChild(certification);
+		
+		card.appendChild(yearsofexperience);
+		
+		card.appendChild(email);
+		
+		card.appendChild(biography);
         
         card.appendChild(image);
 
