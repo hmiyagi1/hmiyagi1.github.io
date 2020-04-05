@@ -1,66 +1,152 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* body rules */
-body {
-    font-family: Verdana;
-    font-size: 16px;
+body{
+	
+	margin-left:18%;
+	margin-right:18%;
+	background-color:#E8E8E8;
 }
 
-header {
-    background-color: #17a8e4;
-    padding: 1rem 2%;
-}
-header h1 {
-	margin: 0; 
-	font-size: 1.5rem;
-}
-header h2{
-	margin: 0; 
-	font-size: 1.2rem; 
-	font-weight: normal;
+header div h1{
+	font-size:40px;
+	text-align:center;
+	margin-top:10%;
+	background: -webkit-linear-gradient(#eee, #FA8072);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
 }
 
-nav {background-color: #111;}
-nav ul{margin:0; padding: 0;}
-nav li {list-style-type: none;}
-nav li.active {background-color: #333}
-nav a {
-    display: block;
-    padding: .8rem 0; /*44px min*/
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
+.headerimage{
+	width:100%;
+	height:250px;
+	border-radius:8%;
+	margin-top:2%;
 }
-nav a:hover {background-color: #444;}
 
-main{display: block; padding: 1rem 2%;}
-main h1 {color: #17a8e4;}
-
-main figure img {width: 100%;}
-main figure{
-    margin: 0;
-    width: 100%;
-    
+.logo{
+	display:none;
+	width:30px;
 }
-main figcaption {text-align: center; font-size: .8rem;}
 
+#navigation{
+	list-style-type:none;
+	text-decoration:none;
+    margin:0 auto;
+}
 
-
-
-footer {
-    background-color: #17a8e4;
-    text-align: center;
-    padding: 1rem 2%;
+.responsive{
+	display:none;
 }
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+ nav button{
+        display:block;
+		margin-top:2%;
+		margin-left:40%;
+		margin-bottom:10%;
+		justify-content:center;
+    }
+
+nav{
+  
+  width: 100%;
+  overflow: hidden;
+}
+
+nav ul li{
+	display:block;
+	float:left;
+	text-align:center;
+	background-color:#E8E8E8;
+	padding:10%;
+	color:#191970;
+	font-weight:800;
+	font-family: 'Abril Fatface', cursive;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+nav ul li a{
+	font-size:1rem;
+	text-decoration:none;
+	display:block;
+}
+
+
+li:link {
+  text-decoration: none;
+}
+
+li:hover{
+	color:black;
+	font-family:times;
+	text-decoration:underline;
+}
+li:active{
+	color:#191970;
+	text-decoration:none;
+}
+li{
+	grid-column:1fr;
+}
+
+
+main{
+	display:grid;
+	grid-template-columns:1fr;
+	grid-gap:3%;
+}
+
+main section img{
+	width:100%;
+	border-radius:8%;	
+}
+
+main section article{
+	margin:20px;
+}
+
+section {
+    background-color: #bbbbbb;
+    border: 1px solid black;
+    margin: 1rem;
+	padding: 1rem;
+}
+
+div.cards{
+	background-color:gray;
+}
+
+section img {
+    margin: 1rem;
+	padding: 1rem;
+    max-width: 80%;
+}
+
+@media only screen and (min-width: 300px) {
+    main div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    main div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+
+footer{
+	display:block;
+	margin-top:180px;
+	padding:40px;
+	justify-content:center;
+	text-align:center;
+	background-color:silver;
 }

@@ -1,18 +1,92 @@
-@media only screen and (min-width: 560px) {
-    nav li {width: 25%; float: left;}
-    
-    
-    main figure {
-        float: right; 
-        width: 48%; 
-        margin-left: 2%;
-        padding-bottom: .5rem;
+@media screen and (min-width:37.5em){
+
+.logo{
+	display:block;
+	width:30px;
+	margin-bottom:-50px;
+}
+
+#navigation{
+	display:block;
+}
+
+nav ul .responsive{
+	display:block;
+}
+
+nav ul li a{
+	display:block;
+	text-decoration:none;
+}
+
+ nav ul li{
+        flex: 1 1 100%;
     }
-    
-    div.news {
-        clear: both;
-        column-count: 2;
-        column-rule: 1px solid #ddd;
+
+nav button{
+     display:none;
     }
-    
-} /* end of media query */
+
+nav ul li{
+	display:flex;
+	float:left;
+	flex-direction:row;
+	background-color:silver;
+	padding:10px;
+	color:#191970;
+	font-weight:800;
+	font-family: 'Abril Fatface', cursive;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+main{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-gap:3%;
+}
+
+main section img{
+	width:100%;
+	height:250px;
+	border-radius:8%;	
+}
+
+section article{
+	margin:20px;
+}
+
+section article .top-left-article{
+	display:flex;
+	float:left;
+	flex-direction:row;
+}
+
+div.cards{
+	margin:0;
+	padding:0;
+	display:grid;
+	grid-template-columns:250px 250px;
+	grid-template-rows:1fr;
+}
+
+section img {
+	max-width:200px;
+    margin: .2rem;
+	padding: .2rem;
+}
+
+
+footer{
+	display:block;
+	margin:0;
+	margin-top:40px;
+	margin-bottom:0;
+	padding:20px;
+	padding:0;
+	justify-content:center;
+	text-align:center;
+	background-color:silver;
+}
+
+}
