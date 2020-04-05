@@ -27,7 +27,7 @@ fetch(requestURL)
 
         h2.textContent = riverguides[i].name + ' ' + riverguides[i].lastname;
 		
-        Bdate.textContent = riverguides[i].birthdate;
+        Skilllevel.textContent = riverguides[i].skilllevel;
         
         image.setAttribute('src', riverguides[i].imageurl);
 		
@@ -35,7 +35,7 @@ fetch(requestURL)
 
         card.appendChild(h2);
 		
-        card.appendChild(Bdate);
+        card.appendChild(Skilllevel);
         
         card.appendChild(image);
 
