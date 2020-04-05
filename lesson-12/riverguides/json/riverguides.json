@@ -3,28 +3,28 @@
     {
       "name": "River Rat",
       "lastname": "Roberts",
-      "Skilllevel": "Advanced Expert",
-     
-      "birthplace": "Riggins, Idaho",
-    
+      "certification": "Advanced Expert",
+      "yearsofexperience": "30 years",
+      "email": "RiverRat@Smail.com",
+      "biography": "River Rat is an expert adventurer and has lived outdoors for 30 years.",
       "imageurl": "https://ichef.bbci.co.uk/news/660/cpsprodpb/FCF2/production/_95145746_h_02726928-1.jpg"
     },
     {
       "name": "Kayaking Kyle",
       "lastname": "Karter",
-      "Skilllevel": "Intermediate",
-     
-      "birthplace": "Z-City",
-      
+      "certification": "Intermediate",
+      "yearsofexperience": "3 years",
+      "email": "KayakingKyle@Smail.com",
+      "biography": "Kayaking Kyle graduate from BYU Idaho 3 years ago and has enjoyed Kayaking the Salmon River for 3 years.",
       "imageurl": "https://img.cartoongoodies.com/wp-content/uploads/2020/02/One-Punch-Man-character-King-head.png"
     },
     {
       "name": "Andy Adventure",
       "lastname": "Arnold",
-      "Skillllevel": "Novice",
-     
-      "birthplace": "Pumpkin",
-      
+      "certification": "Novice",
+      "yearsofexperience": "1 year",
+      "email": "AndyAdventure@Smail.com",
+      "biography": "Andy Adventure started working with us last year.  He is a novice but very excited to work with our team.",
       "imageurl": "https://i.pinimg.com/originals/e6/20/f7/e620f7a3288f468dafe2ba997ccc10c3.png"
     }
 
