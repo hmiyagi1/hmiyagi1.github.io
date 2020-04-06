@@ -1,1 +1,71 @@
+<!---river guide --->
+<!DOCTYPE html>
+<html lang="en us">
 
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Harunori Miyagi">
+        <meta name="description" content="Salmon River Adventure">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/small.css">
+		<link rel="stylesheet" type="text/css" href="css/medium.css">
+		<link rel="stylesheet" type="text/css" href="css/large.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<script src="js/toggleMenu.js"></script>
+</head>
+<body class="container">
+
+ <header>
+			<img class="logo" src="images/idaho.png" alt="Idaho">
+		    <div class="header">
+            <h1>Salmon River Adventure</h1>
+			<div class="subheading"></div>
+            </div>
+</header>
+  
+			<nav class="clearfix">
+				 <button onclick="toggleMenu()">&#9776;MENU</button>
+					<ul id="navigation" class="responsive">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="activities/activities.html">Trip/Activities</a></li>
+					<li><a href="river_guide/riverguides.html">River Guide</a></li>
+					<li><a href="reservations/reservations.html">Reservation</a></li>
+					<li><a href="contact/contact.html">Contact Information</a></li>
+				</ul>
+			</nav>
+		
+<banner>
+		<img class="headerimage" src="images/header.jpg" alt="salmonriver">
+</banner>
+
+<main>
+	<section>
+			<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.096646283005!2d-116.33289468493012!3d45.40739064525417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c50a8b477d35%3A0x2b4f0a0937b98808!2s1500%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549%2C%20USA!5e0!3m2!1sen!2sjp!4v1586134212659!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+	</section><br>
+	
+	<section>
+			<p>1500 Main Street Riggins, Idaho 83549</p>
+			<p>Tel: 208-628-3778</p>
+			<p>Email:SalmonRiverAdventure@gmail.com</p>
+	</section>
+	
+	<section>
+			<h3>Please enter your Personal Information</h3>
+                        <label class="info">Full Name* <br><input type="text" name="name" pattern="[a-zA-Z0-9\s]{5,}" required></label>
+                        <label class="info">Email Address <br><input type="email" name="email" placeholder="johndoe@example.com"></label>
+			<p>Contact Us</p>
+			<label class="other">Fill in the Form Below</label><br>		
+						<br><textarea></textarea>
+			<div class="textCenter"><input type="submit" name="submit" class="submitBtn" value="SUBMIT"></div>
+	</section>
+</main>
+</body>
+<footer>
+	<span>&copy; </span><span id="year"></span><span> | Harunori Miyagi | Utah | <a href="https://www.byui.edu/online" class="link">BYUI Online Learning</a></span>
+            <p class="js"><span id="todaysDate"></span></p><p>Email:SalmonRiverAdventure@gmail.com</p>
+            <script src="js/todaysDate.js"></script>
+</footer>
+
+</html>
