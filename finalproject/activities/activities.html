@@ -1,1 +1,142 @@
+<!---river guide --->
+<!DOCTYPE html>
+<html lang="en us">
 
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Harunori Miyagi">
+        <meta name="description" content="Salmon River Adventure">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/small.css">
+		<link rel="stylesheet" type="text/css" href="css/medium.css">
+		<link rel="stylesheet" type="text/css" href="css/large.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<script src="js/toggleMenu.js"></script>
+</head>
+<body class="container">
+
+ <header>
+			<img class="logo" src="images/idaho.png" alt="Idaho">
+		    <div class="header">
+            <h1>Salmon River Adventure</h1>
+			<div class="subheading"></div>
+            </div>
+</header>
+  
+			<nav class="clearfix">
+				 <button onclick="toggleMenu()">&#9776;MENU</button>
+					<ul id="navigation" class="responsive">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Weather Conditions</a></li>
+					<li><a href="#">Trip/Activities</a></li>
+					<li><a href="C:\Users\User\Desktop\BYU IDAHO\CIT 230 Section 11 Web FrontEnd Development\Week 12\lesson12\river_guide/riverguide.html">River Guide</a></li>
+					<li><a href="#">Reservation</a></li>
+					<li><a href="#">Contact Information</a></li>
+				</ul>
+			</nav>
+		
+<banner>
+		<picture class="headerimage" alt="riverrocks">
+				<source media="(max-width:300px)" srcset="images/header300.jpg">
+				<source media="(max-width:600px)" srcset="images/header600.jpg">
+				<source media="(max-width:800px)" srcset="images/header800.jpg">
+				<img class="headerimage" src="images/header800.jpg" alt="riverrocks">
+				</picture>
+</banner>
+
+<main>
+	<section>
+		<article class="top-left-article">
+		<h3>Kayaking</h3>
+		<p>Length of the Activity: 1 day</p>
+		<p>Skill Level: Novice</p>
+		<p>Cost:$100 </p>
+		<p>Description of the Services Provided: 
+		We give guided instruciton of Kayaking and allow you to rent out a Kayak for the entire day.</p>
+		</article>
+		<picture class="kayak" alt="kayaking>
+				<source media="(max-width:300px)" srcset="images/kayaking400.jpg">
+				<img src="images/kayaking400.jpg" alt="kayaking">
+				</picture>
+		<picture>Kayaking</picture>
+	</section>
+		
+	<section>
+		<article class="top-right-article">
+		<h3>River Rafting</h3>
+		<p>Length of the Activity: 1 day</p>
+		<p>Skill Level: Novice</p>
+		<p>Cost:$300 </p>
+		<p>Description of the Services Provided:
+		We provide a basic river rafting tour of the most exciting part of Salmon River.</p>
+		</article>
+		<picture class="raft" alt="rafting>
+				<source media="(max-width:300px)" srcset="images/riverrafting400.jpg">
+				<img src="images/riverrafting400.jpg" alt="rafting">
+				</picture>
+		<picture>Whitewater Riverrafting</picture>
+	</section>
+	
+	<section>
+		<article class="bottom-left-article">
+		<h3>Fishing</h3>
+		<p>Length of the Activity: 1 day</p>
+		<p>Skill Level: Novice</p>
+		<p>Cost: FREE </p>
+		<p>Description of the Services Provided:
+		A free guided tour of the best fishing spots.</p>
+		</article>
+		<img class="bottom-right-picture" src="images/fishing.jpg" alt="fishing">
+		<picture>Fishing</picture>
+	</section>
+
+	<section>
+		<article class="bottom-right-article">
+		<h3>Adventure 1</h3>
+		<p>Length of the Activity: 1 day</p>
+		<p>Skill Level: Novice</p>
+		<p>Cost:$100 </p>
+		<p>Description of the Services Provided:
+		A nice hike and fishing tour for the novice adventurer. </p>
+		</article>
+		<img class="bottom-right-picture" src="images/adventure1.jpg" alt="adventure1">
+		<picture>Adventure 1</picture>
+	</section>
+	
+		<section>
+		<article class="bottom-right-article">
+		<h3>Adventure 2</h3>
+		<p>Length of the Activity: 3 days</p>
+		<p>Skill Level: Intermediate</p>
+		<p>Cost:$300 </p>
+		<p>Description of the Services Provided: 
+		This adventurer includes kayaking and river rafting.</p>
+		</article>
+		<img class="bottom-right-picture" src="images/adventure2.jpg" alt="adventure2">
+		<picture>Adventure 2</picture>
+	</section>
+	
+		<section>
+		<article class="bottom-right-article">
+		<h3>Adventure 3</h3>
+		<p>Length of the Activity: 5 days</p>
+		<p>Skill Level: Advanced</p>
+		<p>Cost:$500 </p>
+		<p>Description of the Services Provided: 
+		This package includes fishing, hiking, river rafting and kayaking.</p>
+		</article>
+		<img class="bottom-right-picture" src="images/adventure3.jpg" alt="adventure3">
+		<picture>Adventure 3</picture>
+	</section>
+	
+</main>
+</body>
+<footer>
+	<span>&copy; </span><span id="year"></span><span> | Harunori Miyagi | Utah | <a href="https://www.byui.edu/online" class="link">BYUI Online Learning</a></span>
+            <p class="js"><span id="todaysDate"></span></p><p>Email:SalmonRiverAdventure@gmail.com</p>
+            <script src="js/todaysDate.js"></script>
+</footer>
+
+</html>
