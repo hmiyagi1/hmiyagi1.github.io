@@ -112,6 +112,10 @@ section {
 	padding: 1rem;
 }
 
+div.cards{
+	background-color:gray;
+}
+
 section img {
     margin: 1rem;
 	padding: 1rem;

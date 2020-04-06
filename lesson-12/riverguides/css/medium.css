@@ -62,6 +62,21 @@ section article .top-left-article{
 	flex-direction:row;
 }
 
+div.cards{
+	margin:0;
+	padding:0;
+	display:grid;
+	grid-template-columns:250px 250px;
+	grid-template-rows:1fr;
+}
+
+section img {
+	max-width:200px;
+    margin: .2rem;
+	padding: .2rem;
+}
+
+
 footer{
 	display:block;
 	margin:0;
