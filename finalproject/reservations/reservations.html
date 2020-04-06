@@ -1,1 +1,147 @@
+<!---river guide --->
+<!DOCTYPE html>
+<html lang="en us">
 
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Harunori Miyagi">
+        <meta name="description" content="Salmon River Adventure">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/small.css">
+		<link rel="stylesheet" type="text/css" href="css/medium.css">
+		<link rel="stylesheet" type="text/css" href="css/large.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<script src="js/toggleMenu.js"></script>
+</head>
+<body class="container">
+
+ <header>
+			<img class="logo" src="images/idaho.png" alt="Idaho">
+		    <div class="header">
+            <h1>Salmon River Adventure</h1>
+			<div class="subheading"></div>
+            </div>
+</header>
+  
+			<nav class="clearfix">
+				 <button onclick="toggleMenu()">&#9776;MENU</button>
+					<ul id="navigation" class="responsive">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="activities/activities.html">Trip/Activities</a></li>
+					<li><a href="river_guide/riverguides.html">River Guide</a></li>
+					<li><a href="reservations/reservations.html">Reservation</a></li>
+					<li><a href="contact/contact.html">Contact Information</a></li>
+				</ul>
+			</nav>
+		
+<banner>
+		<img class="headerimage" src="images/header.jpg" alt="salmonriver">
+</banner>
+
+<main>
+			<h2 class="datatable">Data Table</h2>
+			<section class="adventure1">	
+				<p>The data table summarizes the three adventures available according to length, skill level, and cost information
+				</p>
+				
+				<table>
+					<tr>
+						<th>Activity</th>
+						<th>Length</th>
+						<th>Skill Level</th>
+						<th>Cost Information</th>
+					</tr>
+					<tr>
+						<td>Kayaking</td>
+						<td>1 day 10 miles</td>
+						<td>Novice</td>
+						<td>$100</td>
+					</tr>
+					<tr>
+						<td>River Rafting</td>
+						<td>3 days 50 miles</td>
+						<td>Novice</td>
+						<td>$300</td>
+					</tr>
+					<tr>
+						<td>Fishing</td>
+						<td>1 day</td>
+						<td>Novice/Advanced</td>
+						<td>Free</td>
+					</tr>
+					<tr>
+						<td>Adventure 1</td>
+						<td>1 day</td>
+						<td>Novice</td>
+						<td>$100</td>
+					</tr>
+					<tr>
+						<td>Adventure 2</td>
+						<td>3 days</td>
+						<td>Intermediate</td>
+						<td>$200</td>
+					</tr>
+					<tr>
+						<td>Adventure 3</td>
+						<td>5 days</td>
+						<td>Advanced</td>
+						<td>$300</td>
+					</tr>
+				</table>
+			</section>
+	
+            <h2 class="reservation">Reservations</h2>
+		<form method="GET" action="thanks.html">
+            <section class="ReservationSection">
+                    <container class="upper">
+                        <h3>Please enter your Personal Information</h3>
+                        <label class="info">Full Name* <br><input type="text" name="name" pattern="[a-zA-Z0-9\s]{5,}" required></label>
+                        <label class="info">Email Address <br><input type="email" name="email" placeholder="johndoe@example.com"></label>
+                        <label class="info">Phone Number* <br><input type="tel" name="phone" required></label>
+                        <label class="info">Zip Code* <br><input type="number" name="zip" required ></label>
+						<p class="req">* are required fields.<br></p>
+                    </container>
+					
+                    <container class="lower">
+                        <h3>Reservation Details</h3>
+                        <label class="data">Start Date<input type="date" name="reservationDate"></label>
+                        <label class="top">Type of Reservation<input list="reservationTypeList" name="reservationType" placeholder="Choose Reservation Type"><br>
+                            <datalist id="reservationTypeList">
+                                <option value="Kayaking">Kayaking</option>
+								<option value="Rafting">Rafting</option>
+                                <option value="Fishing">Fishing</option>
+                                <option value="Adventure1">Adventure 1</option>
+                                <option value="Adventure2">Adventure 2</option>
+								<option value="Adventure3">Adventure 3</option>
+                            </datalist>
+                        </label>
+                    </container>
+					
+                    <container class="lowest">
+                        <h3>Other</h3>
+                        <div>Are you an experienced outdoors adventurer?</div><br>
+                        <label class="other"><input type="radio" name="Experienced" value="yes"> Yes</label>
+                        <label class="other"><input type="radio" name="Experienced" value="no"> No</label>
+                        <label class="other"><input type="radio" name="Experienced" value="maybe"> Maybe</label><br><br>
+                        <label class="other">Question and Comment</label><br>
+						
+						<br><textarea></textarea>
+                    </container>
+                    <div class="textCenter">
+                        <input type="submit" name="submit" class="submitBtn" value="SEND INFORMATION">
+                    </div>
+                </form>
+            </section>
+	
+	
+</main>
+</body>
+<footer>
+	<span>&copy; </span><span id="year"></span><span> | Harunori Miyagi | Utah | <a href="https://www.byui.edu/online" class="link">BYUI Online Learning</a></span>
+            <p class="js"><span id="todaysDate"></span></p><p>Email:SalmonRiverAdventure@gmail.com</p>
+            <script src="js/todaysDate.js"></script>
+</footer>
+
+</html>
