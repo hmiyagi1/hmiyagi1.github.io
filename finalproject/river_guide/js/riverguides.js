@@ -1,5 +1,5 @@
 
-const requestURL = 'https://hmiyagi1.github.io/lesson-12/riverguides/json/riverguides.json';
+const requestURL = 'https://hmiyagi1.github.io/finalproject/river_guide/json/riverguides.json';
 
 fetch(requestURL)
   .then(function (response) {
