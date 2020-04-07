@@ -1,0 +1,32 @@
+{
+  "riverguides": [
+    {
+      "name": "River Rat",
+      "lastname": "Roberts",
+      "certification": "Advanced Expert",
+      "yearsofexperience": "30 years",
+      "email": "RiverRat@Smail.com",
+      "biography": "River Rat is an expert adventurer and has lived outdoors for 30 years.",
+      "imageurl": "https://images.unsplash.com/photo-1506033907656-eae676f6ed7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=602&q=80"
+    },
+    {
+      "name": "Kayaking Kyle",
+      "lastname": "Karter",
+      "certification": "Intermediate",
+      "yearsofexperience": "3 years",
+      "email": "KayakingKyle@Smail.com",
+      "biography": "Kayaking Kyle graduate from BYU Idaho 3 years ago and has enjoyed Kayaking the Salmon River for 3 years.",
+      "imageurl": "https://images.unsplash.com/photo-1521235042493-c5bef89dc2c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=785&q=80"
+    },
+    {
+      "name": "Andy Adventure",
+      "lastname": "Arnold",
+      "certification": "Novice",
+      "yearsofexperience": "1 year",
+      "email": "AndyAdventure@Smail.com",
+      "biography": "Andy Adventure started working with us last year.  He is a novice but very excited to work with our team.",
+      "imageurl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+    }
+
+  ]
+}
