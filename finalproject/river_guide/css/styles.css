@@ -149,6 +149,8 @@ div.cards { background-color: gray; }
 
 section img { margin: 1rem; padding: 1rem; max-width: 80%; }
 
+footer { display: block; margin: 0; margin-top: 40px; margin-bottom: 0; padding: 20px; padding: 0; justify-content: center; text-align: center; background-color: silver; }
+
 @media only screen and (min-width: 300px) { main div { grid-template-columns: 1fr; } }
 @media only screen and (min-width: 600px) { main div { grid-template-columns: 1fr 1fr; } }
 @media only screen and (min-width: 900px) { main div { grid-template-columns: 1fr 1fr 1fr 1fr; }
