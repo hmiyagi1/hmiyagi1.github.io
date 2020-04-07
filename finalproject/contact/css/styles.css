@@ -143,7 +143,7 @@ main section img { width: 100%; border-radius: 8%; }
 
 main section article { margin: 20px; }
 
-section .map { margin:0; padding:0; }
+section div .map { margin:0; padding:0; }
 
 footer { display: block; margin-top: 180px; padding: 40px; justify-content: center; text-align: center; background-color: silver; }
 
@@ -165,7 +165,7 @@ footer { display: block; margin-top: 180px; padding: 40px; justify-content: cent
   nav ul .responsive { display: block; }
   nav ul li { display: block; float: left; background-color: silver; padding: 10px; color: #191970; font-weight: 800; font-family: 'Abril Fatface', cursive; list-style-type: none; text-decoration: none; }
   section article { margin: 20px; }
-  section .map { margin-top: 5%; margin-left: 20%; }
+  section div .map { margin-top: 5%; margin-left: 20%; }
 }
 
 /*# sourceMappingURL=styles.css.map */
